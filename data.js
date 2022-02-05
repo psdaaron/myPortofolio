@@ -1,45 +1,42 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default {
-  name: "Henry",
-  email: "therealjohndoe@gmail.com",
+  name: "Aaron",
+  email: "aaron_work@gmx.de",
   about:
-    "Hey! I'm <b>Henry</b>, a twenty-four years old <b>User Interface</b> and <b>Experience Designer</b> currently based in <b>California</b>.",
+    "Hey! I'm <b>Aaron</b>, a selft taught <b>Graphic Designer</b> and currently based in <b>Germany</b>.",
 
   // intro
   accomplishments: {
-    name: "Recent Accomplishments",
+    name: "Accomplishments",
     value: [
-      "Learned HTML + CSS",
-      "Started a side project",
-      "Cooked meal for myself and choked to death",
+      "Learned Photoshop and Blender",
+      "Worked for some Esport Organizations based in Germany and Austria",
+      "I had a great day :)",
     ],
   },
   socialLink: {
-    name: "Social Links",
+    name: "Social Media",
     value: [
+      { name: "Twitter", link: "https://twitter.com/RoxxCreates" },
       { name: "Instagram", link: "/" },
-      { name: "Dribbble", link: "/" },
-      { name: "Twitter", link: "/" },
-      { name: "Github", link: "/" },
-      { name: "Youtube", link: "/" },
-      { name: "Spotify", link: "/" },
     ],
   },
   currentProfession: {
-    name: "Currently",
+    name: "Current Status",
 	  value: [
-		  "Doing contract/freelance work",
+		  "Doing freelance work",
+		  "Working on some projects"
 		  "Available for new projects"
 	  ],
   },
 
   // Footer
   contactDetails: {
-    name: "Ways to contact me",
+    name: "Reach out to me here",
     value: [
       {
-        name: "Gmail",
-        value: "therealjohndoe@gmail.com",
+        name: "Gmx",
+        value: "aaron_work@gmx.de",
       },
       {
         name: "Discord",
@@ -62,18 +59,18 @@ export default {
   workExperience: [
     {
       info: {
-        "Company": ["Apple"],
+        "Project": ["Off White x Air Jordan"],
         "Description": [
-          "Looking to improve the overall quality of the product through a design thinking approach, as well as conducting Usability sessions to ensure the product appeals to our users.",
+          "Off-White x Air Jordan 1 Retro High OG UNC ",
         ],
 	      "My Objectives": [
-	        "User Testing",
-	        "Accessibility improvements"
+	        "Learning by doing",
+	        "Getting more into Product/Advertisement/Poster Design"
 	      ],
       },
 
-      link: "/",
-      image: "/images/apple.png",
+      Link: "https://twitter.com/RoxxCreates/status/1489985744450072581",
+      Image: "/images/apple.png",
     },
     {
       info: {
@@ -108,5 +105,5 @@ export default {
   ],
 
   // available options:- light, dark, auto
-  theme: "light",
+  theme: "auto",
 };
