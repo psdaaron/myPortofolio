@@ -105,5 +105,5 @@ export default {
   ],
 
   // available options:- light, dark, auto
-  theme: "auto",
+  theme: "dark",
 };
