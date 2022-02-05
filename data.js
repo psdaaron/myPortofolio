@@ -10,7 +10,7 @@ export default {
     name: "Accomplishments",
     value: [
       "Learned Photoshop and Blender",
-      "Worked for some Esport Organizations based in Germany and Austria",
+      "Worked for Esport Organizations based in Germany and Austria",
       "I had a great day :)",
     ],
   },
